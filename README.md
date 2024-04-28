@@ -1,1 +1,0 @@
-The expanding cards project is a web design feature implemented using HTML, CSS, and JavaScript, where a set of cards initially appear in a compact format (EXCEPT FOR THE FIRST CARD), and upon interaction (e.g., click or hover), each card expands to reveal more content, providing an interactive and visually appealing user experience.

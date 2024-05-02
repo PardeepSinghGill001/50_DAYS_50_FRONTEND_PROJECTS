@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #efedd6;
+    font-family:'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;    
+}
+h1{
+    margin: 10px;
+}
+.box{
+    background-color: steelblue;
+    color: #fff;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    border-radius:10px;
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+    /* move the odd div's 400% to the right */
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+}
+.box:nth-of-type(even){
+    /* move all the even div's 400% to the left */
+    transform: translateX(-400%);
+}
+.box.show{
+    /* bring the div with show class to original position */
+    transform: translateX(0);
+}
+.boc h2{
+    font-size: 45px;
+}
